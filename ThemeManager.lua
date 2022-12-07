@@ -5,7 +5,7 @@ local ThemeManager = {} do
 
 	ThemeManager.Library = nil
 	ThemeManager.BuiltInThemes = {
-		['CloudWare'] 		= { 1, httpService:JSONDecode('{"FontColor":"ffffff","MainColor":"1c1c1c","AccentColor":"3C78FF","BackgroundColor":"141414","OutlineColor":"323232"}') },
+		['CloudWare']       = { 1, httpService:JSONDecode('{"FontColor":"ffffff","MainColor":"151415","AccentColor":"3C78FF","BackgroundColor":"121112","OutlineColor":"323232"}') },
 		['Vape V4'] 	    = { 2, httpService:JSONDecode('{"FontColor":"ffffff","MainColor":"1F1E1F","AccentColor":"00ff8b","BackgroundColor":"1A191A","OutlineColor":"292829"}') },
 		['Vape Lite'] 	    = { 2, httpService:JSONDecode('{"FontColor":"ffffff","MainColor":"151618","AccentColor":"327AE2","BackgroundColor":"1F1E23","OutlineColor":"232327"}') },
 	}
